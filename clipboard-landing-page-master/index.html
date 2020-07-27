@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
+  <title>Kanha Dharmik</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->s
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+body{
+  overflow-x: hidden;
+  background-image: url(images/bg-header-desktop.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+}
+
+    
+
+    .card-inside {
+      z-index: 1;
+      font-family: 'Bai Jamjuree', sans-serif;
+      text-align: center;
+      display: inline-block;
+
+    }
+
+
+    .black {
+      font-size: 30px;
+      font-weight: 900;
+      opacity: 0.9;
+      margin-top: 40px;
+      position: relative;
+      left: 100px;
+
+    }
+
+    .grey {
+
+      font-size: 18px;
+      font-weight: 500;
+      opacity: 0.6;
+      width: 620px;
+      text-align: center;
+      display: inline-block;
+      position: relative;
+      left: 100px;
+
+    }
+
+    .computer-image {
+      height: 600px;
+      width: 700px;
+      float: left;
+      margin: 10px 0px 10px 225px;
+
+
+position: relative;
+right: 350px;
+    }
+
+    .blacke {
+      font-size: 23px;
+      font-weight: 900;
+      opacity: 0.9;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: left;
+      right: 50px;
+      width: 400px;
+      margin-top: 90px;
+    }
+
+    .greye {
+      font-size: 15px;
+      font-weight: 500;
+      opacity: 0.6;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      right: 50px;
+      width: 400px;
+      text-align: left;
+    }
+
+    .device-image {
+      height: 500px;
+      width: 800px;
+      position: relative;
+      left: 100px;
+    }
+
+    .blackee {
+      font-size: 23px;
+      font-weight: 900;
+      opacity: 0.9;
+      width: 600px;
+      text-align: center;
+      align-items: center;
+      position: relative;
+      left: 370px;
+    }
+
+    .greyee {
+      font-size: 15px;
+      font-weight: 500;
+      opacity: 0.6;
+      width: 600px;
+      text-align: center;
+      align-items: center;
+      position: relative;
+      left: 330px;
+    }
+
+    .card-3 {
+      margin: 80px;
+    }
+
+    .download-button {
+      position: relative;
+      left: 100px;
+    }
+
+    .row {
+      width: 900px;
+      position: relative;
+      left: 300px;
+      margin-top: 50px;
+    }
+
+    .column-img {
+      font-size: 20px;
+      font-weight: 900;
+      opacity: 0.9;
+      margin-top: 20px;
+    }
+
+    .column-image {
+      font-size: 15px;
+      font-weight: 500;
+      opacity: 0.6;
+    }
+
+    .google-img {
+      padding: 50px;
+      /* width: 180px; */
+
+    }
+
+    .vector-img {
+      padding: 50px;
+      /* width: 170px; */
+    }
+
+    .ibm-img {
+      padding: 50px;
+      /* width: 180px; */
+    }
+
+    .micro-img {
+      padding: 50px;
+      /* width: 180px; */
+    }
+
+    .hp-img {
+      padding: 50px;
+      /* width: 180px; */
+    }
+
+    #card-4 {
+      position: relative;
+      
+     
+left: 100px;
+      margin: 40px;
+    }
+
+    .footer-detail {
+      background-color: hsl(231, 100%, 96%);
+      
+    }
+
+    .logo{
+      position: relative;
+      left: 100px;
+      margin-top: 20px;
+    }
+
+    @media(max-width: 400px){
+      .computer-image{
+        width: 400px;
+        height: 300px;
+      }
+
+      .blacke{
+        width: 400px;
+      text-align: center;
+      align-items: center;
+      position: relative;
+      left: 400px;
+      bottom: 300px;
+      }
+
+      .greye{
+        width: 400px;
+      text-align: left;
+      align-items: center;
+      position: relative;
+      left: 400px;
+      bottom: 300px;
+      }
+
+      .device-image{
+        height: 300px;
+        width: 400px;
+      }
+      .blackee{
+        left: 170px;
+      }
+
+      .greyee{
+        left: 180px;
+      }
+  
+    }
+
+    
+  </style>
+</head>
+
+<body>
+
+
+  <div class="card-inside">
+    
+
+    <img class="logo" src="images/logo.svg" alt="">
+
+
+    <p class="black">A history of everything you copy</p>
+
+    <p class="grey">Clipboard allows you to track and organize everything you
+      copy. Instantly access your clipboard on all your devices.</p>
+
+
+
+    <div class="download-button">
+      <button type="button" class="btn btn-outline-dark btn-lg">Download for iOS</button>
+      <button type="button" class="btn btn btn-outline-dark btn-lg">Download for Mac</button>
+    </div>
+
+    <p class="black">Keep track of your snippets
+    </p>
+
+    <p class="grey">Clipboard instantly stores any item you copy in the cloud,
+      meaning you can access your snippets immediately on all your
+      devices. Our Mac and iOS apps will help you organize everything.
+    </p>
+
+    <br>
+
+    <div class="card-2">
+
+      <img class="computer-image" src="images/image-computer.png" alt="">
+
+
+      <p class="blacke">Quick Search</p>
+
+      <p class="greye">Easily search your snippets by content, category, web address, application, and more.</p>
+
+      <p class="blacke">iCloud Sync</p>
+
+      <p class="greye">Instantly saves and syncs snippets across all your devices.</p>
+
+
+      <p class="blacke">Complete History</p>
+
+      <p class="greye">Retrieve any snippets from the first moment you started using the app.</p>
+
+    </div>
+
+    <div class="card-3">
+      <p class="blackee">Access Clipboard anywhere</p>
+
+      <p class="greyee">Whether you’re on the go, or at your computer, you can access all your Clipboard
+        snippets in a few simple clicks.</p>
+
+      <img class="device-image" src="images/image-devices.png" alt="">
+    </div>
+
+
+    <p class="black">Supercharge your workflow</p>
+
+    <p class="grey"> We’ve got the tools to boost your productivity.</p>
+
+
+    <div class="row kanha">
+      <div class="col-lg-4">
+        <img src="images/icon-blacklist.svg" alt="">
+        <p class="column-img">Create blacklists</p>
+
+        <p class="column-image">Ensure sensitive information never makes its way to your clipboard by excluding certain
+          sources.</p>
+      </div>
+
+      <div class="col-lg-4">
+        <img height="40px" src="images/icon-text.svg" alt="">
+        <p class="column-img">Plain text snippets</p>
+
+        <p class="column-image"> Remove unwanted formatting from copied text for a consistent look.</p>
+
+      </div>
+
+      <div class="col-lg-4">
+        <img src="images/icon-preview.svg" alt="">
+        <p class="column-img"> Sneak preview</p>
+
+        <p class="column-image"> Quick preview of all snippets on your Clipboard for easy access.</p>
+      </div>
+    </div>
+
+    <div id="card-4">
+      <img class="google-img" src="images/logo-google.png" alt="">
+      <img class="ibm-img" src="images/logo-ibm.png" alt="">
+      <img class="micro-img" src="images/logo-microsoft.png" alt="">
+      <img class="hp-img" src="images/logo-hp.png" alt="">
+      <img class="vector-img" src="images/logo-vector-graphics.png" alt="">
+
+    </div>
+
+
+    <p class="black"> Clipboard for iOS and Mac OS</p>
+
+    <p class="grey"> Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+      and you’re ready to start adding to your clipboard.</p>
+
+    <div class="download-button">
+      <button type="button" class="btn btn-outline-dark btn-lg">Download for iOS</button>
+      <button type="button" class="btn btn btn-outline-dark btn-lg">Download for Mac</button>
+    </div>
+
+    <div class=" row footer-detail">
+
+      <div class="col-lg-3">
+        <img class="logo" width="40px" src="images/logo.svg" alt="">
+      </div>
+      <div class="col-lg-3  " id="foot">
+       <p> FAQs</p>
+       <p> Contact Us</p>
+       <p> Privacy Policy</p>
+       <p> Press Kit</p>
+       <p> Install Guide</p>
+      </div>
+
+      <div class="col-lg-3">
+        <img src="images/icon-facebook.svg" alt="">
+        <img src="images/icon-instagram.svg" alt="">
+        <img src="images/icon-twitter.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Kanha Dharmik</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
